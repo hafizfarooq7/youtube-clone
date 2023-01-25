@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="output.css">
+    <title>Document</title>
+</head>
+
+<body >
+    <div class="navbar flex justify-between ">
+        <div class=" flex items-center justify-center w-[240px] mt-2">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="w-9 h-6  hover:bg-gray-200 ">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+            </svg>
+            <img src="you.png" class="w-36 h-8 ml-5 ">
+
+        </div>
+        <div class="midsearchbar flex mt-3">
+            <input type="search" placeholder="Search"
+                class="w-[550px] pl-4 h-[42px] rounded-l-3xl border border-1 border-gray-300 outline-red-200">
+            <div class="border border-1 border-gray-300 rounded-r-3xl flex justify-center items-center w-[64px] hover:cursor-pointer "><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+                </svg>
+            </div><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 mt-2 mx-4 hover:cursor-pointer ">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M12 18.75a6 6 0 006-6v-1.5m-6 7.5a6 6 0 01-6-6v-1.5m6 7.5v3.75m-3.75 0h7.5M12 15.75a3 3 0 01-3-3V4.5a3 3 0 116 0v8.25a3 3 0 01-3 3z" />
+              </svg>
+              
+        </div>
+
+            <div class="toprightmov flex mt-4 mr-11">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 mx-5 hover:cursor-pointer">
+                    <path stroke-linecap="round" d="M15.75 10.5l4.72-4.72a.75.75 0 011.28.53v11.38a.75.75 0 01-1.28.53l-4.72-4.72M4.5 18.75h9a2.25 2.25 0 002.25-2.25v-9a2.25 2.25 0 00-2.25-2.25h-9A2.25 2.25 0 002.25 7.5v9a2.25 2.25 0 002.25 2.25z" />
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 mx-5 hover:cursor-pointer">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M14.857 17.082a23.848 23.848 0 005.454-1.31A8.967 8.967 0 0118 9.75v-.7V9A6 6 0 006 9v.75a8.967 8.967 0 01-2.312 6.022c1.733.64 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 01-5.714 0m5.714 0a3 3 0 11-5.714 0" />
+                  </svg>
+                  
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 mx-5 hover:cursor-pointer">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M17.982 18.725A7.488 7.488 0 0012 15.75a7.488 7.488 0 00-5.982 2.975m11.963 0a9 9 0 10-11.963 0m11.963 0A8.966 8.966 0 0112 21a8.966 8.966 0 01-5.982-2.275M15 9.75a3 3 0 11-6 0 3 3 0 016 0z" />
+                  </svg>
+                  
+            </div>
+        
+    </div>
+   <div class="sidebar&center flex "> 
+    <div class="sidebar mt-3  w-[260px]  flex flex-col items-center overflow-hidden  ">
+
+
+        <div class=" home flex items-center hover:bg-gray-200 cursor-pointer w-[220px]  mx-3 h-11 rounded-lg">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="w-6 h-6 mx-3 ">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
+            </svg>
+            <h1 class="mx-3  text-lg  ">Home</h1>
+        </div>
+        <div class=" home flex items-center hover:bg-gray-200 cursor-pointer w-[220px] mx-3 h-11 rounded-lg">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="w-6 h-6 mx-3 ">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M15.91 11.672a.375.375 0 010 .656l-5.603 3.113a.375.375 0 01-.557-.328V8.887c0-.286.307-.466.557-.327l5.603 3.112z" />
+            </svg>
+            <h1 class="mx-3  text-lg  ">Shorts</h1>
+        </div>
+        <div class=" home flex items-center hover:bg-gray-200 cursor-pointer w-[220px] mx-3 h-11 rounded-lg">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="w-6 h-6 mx-3">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M21 7.5V18M15 7.5V18M3 16.811V8.69c0-.864.933-1.406 1.683-.977l7.108 4.061a1.125 1.125 0 010 1.954l-7.108 4.061A1.125 1.125 0 013 16.811z" />
+            </svg>
+            <h1 class="mx-3  text-lg  ">Subscription</h1>
+        </div>
+
+        <div class="line border border-1 border-gray-300  w-[260px] my-3"> </div>
+
+        <div class=" home flex items-center hover:bg-gray-200 cursor-pointer w-[220px] mx-3 h-11 rounded-lg">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="w-6 h-6 mx-3">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M12 21v-8.25M15.75 21v-8.25M8.25 21v-8.25M3 9l9-6 9 6m-1.5 12V10.332A48.36 48.36 0 0012 9.75c-2.551 0-5.056.2-7.5.582V21M3 21h18M12 6.75h.008v.008H12V6.75z" />
+            </svg>
+            <h1 class="mx-3  text-lg  ">Library</h1>
+        </div>
+        <div class=" home flex items-center hover:bg-gray-200 cursor-pointer w-[220px] mx-3 h-11 rounded-lg">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="w-6 h-6 mx-3">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M15.75 15.75V18m-7.5-6.75h.008v.008H8.25v-.008zm0 2.25h.008v.008H8.25V13.5zm0 2.25h.008v.008H8.25v-.008zm0 2.25h.008v.008H8.25V18zm2.498-6.75h.007v.008h-.007v-.008zm0 2.25h.007v.008h-.007V13.5zm0 2.25h.007v.008h-.007v-.008zm0 2.25h.007v.008h-.007V18zm2.504-6.75h.008v.008h-.008v-.008zm0 2.25h.008v.008h-.008V13.5zm0 2.25h.008v.008h-.008v-.008zm0 2.25h.008v.008h-.008V18zm2.498-6.75h.008v.008h-.008v-.008zm0 2.25h.008v.008h-.008V13.5zM8.25 6h7.5v2.25h-7.5V6zM12 2.25c-1.892 0-3.758.11-5.593.322C5.307 2.7 4.5 3.65 4.5 4.757V19.5a2.25 2.25 0 002.25 2.25h10.5a2.25 2.25 0 002.25-2.25V4.757c0-1.108-.806-2.057-1.907-2.185A48.507 48.507 0 0012 2.25z" />
+            </svg>
+
+            <h1 class="mx-3  text-lg  ">History</h1>
+        </div>
+
+        <div class=" home flex items-center hover:bg-gray-200 cursor-pointer w-[220px] mx-3 h-11 rounded-lg">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="w-6 h-6 mx-3">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M5.25 5.653c0-.856.917-1.398 1.667-.986l11.54 6.348a1.125 1.125 0 010 1.971l-11.54 6.347a1.125 1.125 0 01-1.667-.985V5.653z" />
+            </svg>
+
+            <h1 class="mx-3  text-lg  ">Your videos</h1>
+        </div>
+        <div class=" home flex items-center hover:bg-gray-200 cursor-pointer w-[220px] mx-3 h-11 rounded-lg">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="w-6 h-6 mx-3">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+            <h1 class="mx-3  text-lg  ">Watch Later</h1>
+        </div>
+        <div class=" home flex items-center hover:bg-gray-200 cursor-pointer w-[220px] mx-3 h-11 rounded-lg">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="w-6 h-6 mx-3">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M9 9l10.5-3m0 6.553v3.75a2.25 2.25 0 01-1.632 2.163l-1.32.377a1.803 1.803 0 11-.99-3.467l2.31-.66a2.25 2.25 0 001.632-2.163zm0 0V2.25L9 5.25v10.303m0 0v3.75a2.25 2.25 0 01-1.632 2.163l-1.32.377a1.803 1.803 0 01-.99-3.467l2.31-.66A2.25 2.25 0 009 15.553z" />
+            </svg>
+
+            <h1 class="mx-3  text-lg  ">Music</h1>
+        </div>
+        <div class=" home flex items-center hover:bg-gray-200 cursor-pointer w-[220px] mx-3 h-11 rounded-lg">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="w-6 h-6 mx-3">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M8.25 7.5V6.108c0-1.135.845-2.098 1.976-2.192.373-.03.748-.057 1.123-.08M15.75 18H18a2.25 2.25 0 002.25-2.25V6.108c0-1.135-.845-2.098-1.976-2.192a48.424 48.424 0 00-1.123-.08M15.75 18.75v-1.875a3.375 3.375 0 00-3.375-3.375h-1.5a1.125 1.125 0 01-1.125-1.125v-1.5A3.375 3.375 0 006.375 7.5H5.25m11.9-3.664A2.251 2.251 0 0015 2.25h-1.5a2.251 2.251 0 00-2.15 1.586m5.8 0c.065.21.1.433.1.664v.75h-6V4.5c0-.231.035-.454.1-.664M6.75 7.5H4.875c-.621 0-1.125.504-1.125 1.125v12c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V16.5a9 9 0 00-9-9z" />
+            </svg>
+
+            <h1 class="mx-3  text-lg  ">Copyright work </h1>
+        </div>
+
+        <div class="line border border-1 border-gray-300  w-[260px] mt-4 mb-8"> </div>
+
+        <h3 class="absolute top-[510px] left-4 text-lg font-semibold">Subscriptions</h3>
+
+        <div class=" home flex items-center hover:bg-gray-200 cursor-pointer w-[220px] mx-3 h-11 rounded-lg">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="w-6 h-6 mx-3">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M6 20.25h12m-7.5-3v3m3-3v3m-10.125-3h17.25c.621 0 1.125-.504 1.125-1.125V4.875c0-.621-.504-1.125-1.125-1.125H3.375c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125z" />
+            </svg>
+            <h1 class="mx-3  text-lg  ">Your Subscribers</h1>
+        </div>
+        <div class=" home flex items-center hover:bg-gray-200 cursor-pointer w-[220px] mx-3 h-11 rounded-lg">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="w-6 h-6 mx-3">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M6 20.25h12m-7.5-3v3m3-3v3m-10.125-3h17.25c.621 0 1.125-.504 1.125-1.125V4.875c0-.621-.504-1.125-1.125-1.125H3.375c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125z" />
+            </svg>
+            <h1 class="mx-3  text-lg  ">Your Subscribers</h1>
+        </div>
+        <div class=" home flex items-center hover:bg-gray-200 cursor-pointer w-[220px] mx-3 h-11 rounded-lg">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="w-6 h-6 mx-3">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M6 20.25h12m-7.5-3v3m3-3v3m-10.125-3h17.25c.621 0 1.125-.504 1.125-1.125V4.875c0-.621-.504-1.125-1.125-1.125H3.375c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125z" />
+            </svg>
+            <h1 class="mx-3  text-lg  ">Your Subscribers</h1>
+        </div>
+        <div class=" home flex items-center hover:bg-gray-200 cursor-pointer w-[220px] mx-3 h-11 rounded-lg">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="w-6 h-6 mx-3">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M6 20.25h12m-7.5-3v3m3-3v3m-10.125-3h17.25c.621 0 1.125-.504 1.125-1.125V4.875c0-.621-.504-1.125-1.125-1.125H3.375c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125z" />
+            </svg>
+            <h1 class="mx-3  text-lg  ">Your Subscribers</h1>
+        </div>
+        <div class=" home flex items-center hover:bg-gray-200 cursor-pointer w-[220px] mx-3 h-11 rounded-lg">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="w-6 h-6 mx-3">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M6 20.25h12m-7.5-3v3m3-3v3m-10.125-3h17.25c.621 0 1.125-.504 1.125-1.125V4.875c0-.621-.504-1.125-1.125-1.125H3.375c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125z" />
+            </svg>
+            <h1 class="mx-3  text-lg  ">Your Subscribers</h1>
+        </div>
+        <div class=" home flex items-center hover:bg-gray-200 cursor-pointer w-[220px] mx-3 h-11 rounded-lg">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="w-6 h-6 mx-3">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M6 20.25h12m-7.5-3v3m3-3v3m-10.125-3h17.25c.621 0 1.125-.504 1.125-1.125V4.875c0-.621-.504-1.125-1.125-1.125H3.375c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125z" />
+            </svg>
+            <h1 class="mx-3  text-lg  ">Your Subscribers</h1>
+        </div>
+
+        <div class="line border border-1 border-gray-300  w-[260px] mt-4 mb-8"> </div>
+        <h3 class="absolute top-[825px] left-4 text-lg font-semibold">Explore</h3>
+
+        <div class=" home flex items-center hover:bg-gray-200 cursor-pointer w-[220px] mx-3 h-11 rounded-lg">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="w-6 h-6 mx-3">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M15.362 5.214A8.252 8.252 0 0112 21 8.25 8.25 0 016.038 7.048 8.287 8.287 0 009 9.6a8.983 8.983 0 013.361-6.867 8.21 8.21 0 003 2.48z" />
+                <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M12 18a3.75 3.75 0 00.495-7.467 5.99 5.99 0 00-1.925 3.546 5.974 5.974 0 01-2.133-1A3.75 3.75 0 0012 18z" />
+            </svg>
+            <h1 class="mx-3  text-lg  ">Trending</h1>
+        </div>
+        <div class=" home flex items-center hover:bg-gray-200 cursor-pointer w-[220px] mx-3 h-11 rounded-lg">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="w-6 h-6 mx-3">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M9 9l10.5-3m0 6.553v3.75a2.25 2.25 0 01-1.632 2.163l-1.32.377a1.803 1.803 0 11-.99-3.467l2.31-.66a2.25 2.25 0 001.632-2.163zm0 0V2.25L9 5.25v10.303m0 0v3.75a2.25 2.25 0 01-1.632 2.163l-1.32.377a1.803 1.803 0 01-.99-3.467l2.31-.66A2.25 2.25 0 009 15.553z" />
+            </svg>
+
+
+            <h1 class="mx-3  text-lg  ">Music</h1>
+        </div>
+        <div class=" home flex items-center hover:bg-gray-200 cursor-pointer w-[220px] mx-3 h-11 rounded-lg">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="w-6 h-6 mx-3">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M14.25 6.087c0-.355.186-.676.401-.959.221-.29.349-.634.349-1.003 0-1.036-1.007-1.875-2.25-1.875s-2.25.84-2.25 1.875c0 .369.128.713.349 1.003.215.283.401.604.401.959v0a.64.64 0 01-.657.643 48.39 48.39 0 01-4.163-.3c.186 1.613.293 3.25.315 4.907a.656.656 0 01-.658.663v0c-.355 0-.676-.186-.959-.401a1.647 1.647 0 00-1.003-.349c-1.036 0-1.875 1.007-1.875 2.25s.84 2.25 1.875 2.25c.369 0 .713-.128 1.003-.349.283-.215.604-.401.959-.401v0c.31 0 .555.26.532.57a48.039 48.039 0 01-.642 5.056c1.518.19 3.058.309 4.616.354a.64.64 0 00.657-.643v0c0-.355-.186-.676-.401-.959a1.647 1.647 0 01-.349-1.003c0-1.035 1.008-1.875 2.25-1.875 1.243 0 2.25.84 2.25 1.875 0 .369-.128.713-.349 1.003-.215.283-.4.604-.4.959v0c0 .333.277.599.61.58a48.1 48.1 0 005.427-.63 48.05 48.05 0 00.582-4.717.532.532 0 00-.533-.57v0c-.355 0-.676.186-.959.401-.29.221-.634.349-1.003.349-1.035 0-1.875-1.007-1.875-2.25s.84-2.25 1.875-2.25c.37 0 .713.128 1.003.349.283.215.604.401.96.401v0a.656.656 0 00.658-.663 48.422 48.422 0 00-.37-5.36c-1.886.342-3.81.574-5.766.689a.578.578 0 01-.61-.58v0z" />
+            </svg>
+
+            <h1 class="mx-3  text-lg  ">Gaming</h1>
+        </div>
+        <div class=" home flex items-center hover:bg-gray-200 cursor-pointer w-[220px] mx-3 h-11 rounded-lg">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="w-6 h-6 mx-3">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M12 7.5h1.5m-1.5 3h1.5m-7.5 3h7.5m-7.5 3h7.5m3-9h3.375c.621 0 1.125.504 1.125 1.125V18a2.25 2.25 0 01-2.25 2.25M16.5 7.5V18a2.25 2.25 0 002.25 2.25M16.5 7.5V4.875c0-.621-.504-1.125-1.125-1.125H4.125C3.504 3.75 3 4.254 3 4.875V18a2.25 2.25 0 002.25 2.25h13.5M6 7.5h3v3H6v-3z" />
+            </svg>
+
+            <h1 class="mx-3  text-lg  ">News</h1>
+        </div>
+        <div class=" home flex items-center hover:bg-gray-200 cursor-pointer w-[220px] mx-3 h-11 rounded-lg">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="w-6 h-6 mx-3">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M15.182 15.182a4.5 4.5 0 01-6.364 0M21 12a9 9 0 11-18 0 9 9 0 0118 0zM9.75 9.75c0 .414-.168.75-.375.75S9 10.164 9 9.75 9.168 9 9.375 9s.375.336.375.75zm-.375 0h.008v.015h-.008V9.75zm5.625 0c0 .414-.168.75-.375.75s-.375-.336-.375-.75.168-.75.375-.75.375.336.375.75zm-.375 0h.008v.015h-.008V9.75z" />
+            </svg>
+
+            <h1 class="mx-3  text-lg  ">Sports</h1>
+        </div>
+        <div class="line border border-1 border-gray-300  w-[260px] mt-4 mb-8"> </div>
+
+
+        <h3 class="absolute top-[1090px] left-4 text-lg font-semibold">More from You Tube</h3>
+
+        <div class=" home flex items-center hover:bg-gray-200 cursor-pointer w-[220px] mx-3 h-11 rounded-lg">
+            <img src="2.png" class="w-6 h-6 mx-3">
+            <h1 class="mx-3  text-lg  ">Creater Studio</h1>
+        </div>
+        <div class=" home flex items-center hover:bg-gray-200 cursor-pointer w-[220px] mx-3 h-11 rounded-lg">
+            <img src="1.png" class="w-6 h-6 mx-3">
+            <h1 class="mx-3  text-lg  ">Youtube Music</h1>
+        </div>
+        <div class=" home flex items-center hover:bg-gray-200 cursor-pointer w-[220px] mx-3 h-11 rounded-lg">
+            <img src="4.png" class="w-6 h-6 mx-3">
+            <h1 class="mx-3  text-lg  ">Youtube Kids</h1>
+        </div>
+        <div class=" home flex items-center hover:bg-gray-200 cursor-pointer w-[220px] mx-3 h-11 rounded-lg">
+            <img src="3.png" class="w-6 h-6 mx-3">
+            <h1 class="mx-3  text-lg  ">Youtube TV</h1>
+        </div>
+
+        <div class="line border border-1 border-gray-300  w-[260px] my-3"> </div>
+
+        <div class=" home flex items-center hover:bg-gray-200 cursor-pointer w-[220px] mx-3 h-11 rounded-lg">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="w-6 h-6 mx-3">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M9.594 3.94c.09-.542.56-.94 1.11-.94h2.593c.55 0 1.02.398 1.11.94l.213 1.281c.063.374.313.686.645.87.074.04.147.083.22.127.324.196.72.257 1.075.124l1.217-.456a1.125 1.125 0 011.37.49l1.296 2.247a1.125 1.125 0 01-.26 1.431l-1.003.827c-.293.24-.438.613-.431.992a6.759 6.759 0 010 .255c-.007.378.138.75.43.99l1.005.828c.424.35.534.954.26 1.43l-1.298 2.247a1.125 1.125 0 01-1.369.491l-1.217-.456c-.355-.133-.75-.072-1.076.124a6.57 6.57 0 01-.22.128c-.331.183-.581.495-.644.869l-.213 1.28c-.09.543-.56.941-1.11.941h-2.594c-.55 0-1.02-.398-1.11-.94l-.213-1.281c-.062-.374-.312-.686-.644-.87a6.52 6.52 0 01-.22-.127c-.325-.196-.72-.257-1.076-.124l-1.217.456a1.125 1.125 0 01-1.369-.49l-1.297-2.247a1.125 1.125 0 01.26-1.431l1.004-.827c.292-.24.437-.613.43-.992a6.932 6.932 0 010-.255c.007-.378-.138-.75-.43-.99l-1.004-.828a1.125 1.125 0 01-.26-1.43l1.297-2.247a1.125 1.125 0 011.37-.491l1.216.456c.356.133.751.072 1.076-.124.072-.044.146-.087.22-.128.332-.183.582-.495.644-.869l.214-1.281z" />
+                <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+            </svg>
+
+            <h1 class="mx-3  text-lg  ">Setting </h1>
+        </div>
+        <div class=" home flex items-center hover:bg-gray-200 cursor-pointer w-[220px] mx-3 h-11 rounded-lg">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="w-6 h-6 mx-3">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M3 3v1.5M3 21v-6m0 0l2.77-.693a9 9 0 016.208.682l.108.054a9 9 0 006.086.71l3.114-.732a48.524 48.524 0 01-.005-10.499l-3.11.732a9 9 0 01-6.085-.711l-.108-.054a9 9 0 00-6.208-.682L3 4.5M3 15V4.5" />
+            </svg>
+
+            <h1 class="mx-3  text-lg  ">Report History </h1>
+        </div>
+        <div class=" home flex items-center hover:bg-gray-200 cursor-pointer w-[220px] mx-3 h-11 rounded-lg">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="w-6 h-6 mx-3">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M11.25 11.25l.041-.02a.75.75 0 011.063.852l-.708 2.836a.75.75 0 001.063.853l.041-.021M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-9-3.75h.008v.008H12V8.25z" />
+            </svg>
+
+            <h1 class="mx-3  text-lg  ">Help </h1>
+        </div>
+        <div class=" home flex items-center hover:bg-gray-200 cursor-pointer w-[220px] mx-3 h-11 rounded-lg">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="w-6 h-6 mx-3">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-9 5.25h.008v.008H12v-.008z" />
+            </svg>
+
+            <h1 class="mx-3  text-lg  ">Send Feedback </h1>
+        </div>
+
+        <div class="line border border-1 border-gray-300  w-[260px] my-3"> </div>
+
+        <div class="grid grid-cols-3 ">
+            <h2 class=" home flex items-center cursor-pointer w-16  mx-3  text-sm font-medium ">About </h2>
+            <h2 class=" home flex items-center cursor-pointer w-16  mx-3  text-sm font-medium "> Copyright </h2>
+            <h2 class=" home flex items-center cursor-pointer w-20  mx-3  text-sm font-medium "> Contact us </h2>
+            <h2 class=" home flex items-center cursor-pointer w-16  mx-3  text-sm font-medium "> Creators </h2>
+            <h2 class=" home flex items-center cursor-pointer w-16  mx-3  text-sm font-medium "> Advertise </h2>
+            <h2 class=" home flex items-center cursor-pointer w-16  mx-3  text-sm font-medium "> Developers</h2>
+        </div>
+
+
+        <div class="flex gap-0 ml-0 mt-4">
+            <h2 class=" home flex items-center cursor-pointer w-16   text-sm font-medium ">Terms </h2>
+            <h2 class=" home flex items-center cursor-pointer w-16    text-sm font-medium ">Privacy</h2>
+            <h2 class=" home flex items-center cursor-pointer w-16   text-sm font-medium "> Policy </h2>
+        </div>
+        <div class="flex">
+            <h2 class=" home  cursor-pointer   text-sm font-medium "> How YouTube works</h2><br>
+            <h2 class=" home  cursor-pointer   text-sm font-medium "> Test new features </h2>
+        </div>
+
+        <div class="my-8 mx-3 text-sm">© 2023 Google LLC</div>
+    </div>
+<div class="navbotomthumbnail">
+    <div class="navbottom grid grid-rows-1 grid-flow-col gap-2 rounded-xl h-16 items-center w-[1300px]">
+        <h2 class="h-8 bg-black text-white hover:bg-gray-300 flex items-center justify-center rounded-lg hover:cursor-pointer">All</h2>
+        <h2 class="h-8 bg-gray-200 hover:bg-gray-300 flex items-center justify-center rounded-lg hover:cursor-pointer">Film Criticisms</h2>
+        <h2 class="h-8 bg-gray-200 hover:bg-gray-300 flex items-center justify-center rounded-lg hover:cursor-pointer">Dramedy </h2>
+        <h2 class="h-8 bg-gray-200 hover:bg-gray-300 flex items-center justify-center rounded-lg hover:cursor-pointer">News</h2>
+        <h2 class="h-8 bg-gray-200 hover:bg-gray-300 flex items-center justify-center rounded-lg hover:cursor-pointer">Sales</h2>
+        <h2 class="h-8 bg-gray-200 hover:bg-gray-300 flex items-center justify-center rounded-lg hover:cursor-pointer">Comedy</h2>
+        <h2 class="h-8 bg-gray-200 hover:bg-gray-300 flex items-center justify-center rounded-lg hover:cursor-pointer">HTML</h2>
+        <h2 class="h-8 bg-gray-200 hover:bg-gray-300 flex items-center justify-center rounded-lg hover:cursor-pointer">Action Thrillers</h2>
+        <h2 class="h-8 bg-gray-200 hover:bg-gray-300 flex items-center justify-center rounded-lg hover:cursor-pointer">Ghazal</h2>
+        <h2 class="h-8 bg-gray-200 hover:bg-gray-300 flex items-center justify-center rounded-lg hover:cursor-pointer">Live</h2>
+        <h2 class="h-8 bg-gray-200 hover:bg-gray-300 flex items-center justify-center rounded-lg hover:cursor-pointer">Filmi</h2>
+        <h2 class="h-8 bg-gray-200 hover:bg-gray-300 flex items-center justify-center rounded-lg hover:cursor-pointer">Public Speaking</h2>
+        <h2 class="h-8 bg-gray-200 hover:bg-gray-300 flex items-center justify-center rounded-lg hover:cursor-pointer">Trailers</h2>
+        <h2 class="h-8 bg-gray-200 hover:bg-gray-300 flex items-center justify-center rounded-lg hover:cursor-pointer">Editing</h2>
+        
+    </div>
+    <div class="videosthumbnails  grid grid-cols-4 mt-7 ml-8 ">
+        <div class="h-[330px] w-[300px]  border-gray-300 cursor-pointer hover:scale-125 hover:bg-white duration-1000 hover:border border-1 hover:rounded-xl shadow-xl">
+            <img src="10.jpg" class="h-[170px] w-[300px] rounded-xl" >
+            <h2 class="font-semibold my-2">Become a shopoify partner</h2>
+            <h2 class="text-base">Join the Shopify Partner Program, and start earning a 20% revenue share.</h2>
+            <h2 class="font-semibold mt-3">Ad . Shopify Partners</h2>
+        </div>
+        <div class="h-[330px] w-[300px]  border-gray-300 cursor-pointer hover:scale-125 hover:bg-white duration-1000 hover:border border-1 hover:rounded-xl shadow-xl">
+            <img src="11.jpg" class="h-[170px] w-[300px] rounded-xl" >
+           <div class="flex mt-3"> <img src="Artboard 4.png" class="w-9 h-9"> <div class="ml-3">
+            <h2 class="font-semibold">Build passive income with chat GPT.</h2>
+            <h2 class="text-base mt-1">Broko Banks</h2>
+            <h2 class="text-base ">126K views . 7 days ago</h2></div></div>
+        </div>
+        <div class="h-[330px] w-[300px]  border-gray-300 cursor-pointer hover:scale-125 hover:bg-white duration-1000 hover:border border-1 hover:rounded-xl shadow-xl">
+            <img src="12.jpg" class="h-[170px] w-[300px] rounded-xl" >
+           <div class="flex mt-3"> <img src="Artboard 3.png" class="w-9 h-9"> <div class="ml-3">
+            <h2 class="font-semibold">How suddenly Qasil Ali Shah launched Interview</h2>
+            <h2 class="text-base mt-1">Broko Banks</h2>
+            <h2 class="text-base ">126K views . 7 days ago</h2></div></div>
+        </div>
+        <div class="h-[330px] w-[300px]  border-gray-300 cursor-pointer hover:scale-125 hover:bg-white duration-1000 hover:border border-1 hover:rounded-xl shadow-xl">
+            <img src="13.jpg" class="h-[170px] w-[300px] rounded-lg" >
+           <div class="flex mt-3"> <img src="Artboard 7.png" class="w-9 h-9"> <div class="ml-3">
+            <h2 class="font-semibold">Hugo Movie Review/Plot In Hindi & Urdu</h2>
+            <h2 class="text-base mt-1">Bollywood Silver Screen</h2>
+            <h2 class="text-base ">126K views . 7 days ago</h2></div></div>
+        </div>
+        <div class="h-[330px] w-[300px]  border-gray-300 cursor-pointer hover:scale-125 hover:bg-white duration-1000 hover:border border-1 hover:rounded-xl shadow-xl">
+            <img src="17.jpg" class="h-[170px] w-[300px] rounded-xl" >
+           <div class="flex mt-3"> <img src="Artboard 4.png" class="w-9 h-9"> <div class="ml-3">
+            <h2 class="font-semibold">Build passive income with chat GPT.</h2>
+            <h2 class="text-base mt-1">Broko Banks</h2>
+            <h2 class="text-base ">126K views . 7 days ago</h2></div></div>
+        </div>
+        <div class="h-[330px] w-[300px]  border-gray-300 cursor-pointer hover:scale-125 hover:bg-white duration-1000 hover:border border-1 hover:rounded-xl shadow-xl">
+            <img src="15.jpg" class="h-[170px] w-[300px] rounded-xl" >
+           <div class="flex mt-3"> <img src="Artboard 3.png" class="w-9 h-9"> <div class="ml-3">
+            <h2 class="font-semibold">How suddenly Qasil Ali Shah launched Interview</h2>
+            <h2 class="text-base mt-1">Broko Banks</h2>
+            <h2 class="text-base ">126K views . 7 days ago</h2></div></div>
+        </div>
+        <div class="h-[330px] w-[300px]  border-gray-300 cursor-pointer hover:scale-125 hover:bg-white duration-1000 hover:border border-1 hover:rounded-xl shadow-xl">
+            <img src="16.jpg" class="h-[170px] w-[300px] rounded-lg" >
+           <div class="flex mt-3"> <img src="Artboard 7.png" class="w-9 h-9"> <div class="ml-3">
+            <h2 class="font-semibold">Hugo Movie Review/Plot In Hindi & Urdu</h2>
+            <h2 class="text-base mt-1">Bollywood Silver Screen</h2>
+            <h2 class="text-base ">126K views . 7 days ago</h2></div></div>
+        </div>
+        <div class="h-[330px] w-[300px]  border-gray-300 cursor-pointer hover:scale-125 hover:bg-white duration-1000 hover:border border-1 hover:rounded-xl shadow-xl">
+            <img src="14.jpg" class="h-[170px] w-[300px] rounded-lg" >
+           <div class="flex mt-3"> <img src="Artboard 7.png" class="w-9 h-9"> <div class="ml-3">
+            <h2 class="font-semibold">Hugo Movie Review/Plot In Hindi & Urdu</h2>
+            <h2 class="text-base mt-1">Bollywood Silver Screen</h2>
+            <h2 class="text-base ">126K views . 7 days ago</h2></div></div>
+        </div>
+        <div class="h-[330px] w-[300px]  border-gray-300 cursor-pointer hover:scale-125 hover:bg-white duration-1000 hover:border border-1 hover:rounded-xl shadow-xl">
+            <img src="18.jpg" class="h-[170px] w-[300px] rounded-xl" >
+           <div class="flex mt-3"> <img src="Artboard 4.png" class="w-9 h-9"> <div class="ml-3">
+            <h2 class="font-semibold">Build passive income with chat GPT.</h2>
+            <h2 class="text-base mt-1">Broko Banks</h2>
+            <h2 class="text-base ">126K views . 7 days ago</h2></div></div>
+        </div>
+        <div class="h-[330px] w-[300px]  border-gray-300 cursor-pointer hover:scale-125 hover:bg-white duration-1000 hover:border border-1 hover:rounded-xl shadow-xl">
+            <img src="19.jpg" class="h-[170px] w-[300px] rounded-xl" >
+           <div class="flex mt-3"> <img src="Artboard 3.png" class="w-9 h-9"> <div class="ml-3">
+            <h2 class="font-semibold">How suddenly Qasil Ali Shah launched Interview</h2>
+            <h2 class="text-base mt-1">Broko Banks</h2>
+            <h2 class="text-base ">126K views . 7 days ago</h2></div></div>
+        </div>
+        <div class="h-[330px] w-[300px]  border-gray-300 cursor-pointer hover:scale-125 hover:bg-white duration-1000 hover:border border-1 hover:rounded-xl shadow-xl">
+            <img src="20.jpg" class="h-[170px] w-[300px] rounded-lg" >
+           <div class="flex mt-3"> <img src="Artboard 7.png" class="w-9 h-9"> <div class="ml-3">
+            <h2 class="font-semibold">Hugo Movie Review/Plot In Hindi & Urdu</h2>
+            <h2 class="text-base mt-1">Bollywood Silver Screen</h2>
+            <h2 class="text-base ">126K views . 7 days ago</h2></div></div>
+        </div>
+        <div class="h-[330px] w-[300px]  border-gray-300 cursor-pointer hover:scale-125 hover:bg-white duration-1000 hover:border border-1 hover:rounded-xl shadow-xl">
+            <img src="21.jpg" class="h-[170px] w-[300px] rounded-lg" >
+           <div class="flex mt-3"> <img src="Artboard 7.png" class="w-9 h-9"> <div class="ml-3">
+            <h2 class="font-semibold">Hugo Movie Review/Plot In Hindi & Urdu</h2>
+            <h2 class="text-base mt-1">Bollywood Silver Screen</h2>
+            <h2 class="text-base ">126K views . 7 days ago</h2></div></div>
+        </div>
+        <div class="h-[330px] w-[300px]  border-gray-300 cursor-pointer hover:scale-125 hover:bg-white duration-1000 hover:border border-1 hover:rounded-xl shadow-xl">
+            <img src="22.jpg" class="h-[170px] w-[300px] rounded-xl" >
+           <div class="flex mt-3"> <img src="Artboard 4.png" class="w-9 h-9"> <div class="ml-3">
+            <h2 class="font-semibold">Build passive income with chat GPT.</h2>
+            <h2 class="text-base mt-1">Broko Banks</h2>
+            <h2 class="text-base ">126K views . 7 days ago</h2></div></div>
+        </div>
+        <div class="h-[330px] w-[300px]  border-gray-300 cursor-pointer hover:scale-125 hover:bg-white duration-1000 hover:border border-1 hover:rounded-xl shadow-xl">
+            <img src="23.jpg" class="h-[170px] w-[300px] rounded-xl" >
+           <div class="flex mt-3"> <img src="Artboard 3.png" class="w-9 h-9"> <div class="ml-3">
+            <h2 class="font-semibold">How suddenly Qasil Ali Shah launched Interview</h2>
+            <h2 class="text-base mt-1">Broko Banks</h2>
+            <h2 class="text-base ">126K views . 7 days ago</h2></div></div>
+        </div>
+        <div class="h-[330px] w-[300px]  border-gray-300 cursor-pointer hover:scale-125 hover:bg-white duration-1000 hover:border border-1 hover:rounded-xl shadow-xl">
+            <img src="24.jpg" class="h-[170px] w-[300px] rounded-lg" >
+           <div class="flex mt-3"> <img src="Artboard 7.png" class="w-9 h-9"> <div class="ml-3">
+            <h2 class="font-semibold">Hugo Movie Review/Plot In Hindi & Urdu</h2>
+            <h2 class="text-base mt-1">Bollywood Silver Screen</h2>
+            <h2 class="text-base ">126K views . 7 days ago</h2></div></div>
+        </div>
+        <div class="h-[330px] w-[300px]  border-gray-300 cursor-pointer hover:scale-125 hover:bg-white duration-1000 hover:border border-1 hover:rounded-xl shadow-xl">
+            <img src="25.jpg" class="h-[170px] w-[300px] rounded-lg" >
+           <div class="flex mt-3"> <img src="Artboard 7.png" class="w-9 h-9"> <div class="ml-3">
+            <h2 class="font-semibold">Hugo Movie Review/Plot In Hindi & Urdu</h2>
+            <h2 class="text-base mt-1">Bollywood Silver Screen</h2>
+            <h2 class="text-base ">126K views . 7 days ago</h2></div></div>
+        </div>
+      
+    </div>
+    <div class="flex w-[1300px] justify-center" ><h2 class="w-[330px] h-[300px] cursor-pointer animate-bounce hover:animate-none flex justify-center items-center font-bold text-6xl text-center bg-red-600 rounded-2xl text-white my-10">Clone by Hafiz Farooq</h2></div>
+
+</div>
+   </div>
+</body>
+
+</html>
